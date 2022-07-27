@@ -10,7 +10,7 @@
     "dev:deploy:contract": "near dev-deploy",
     "deploy:pages": "gh-pages -d dist/",
     "deploy": "npm run build && npm run deploy:contract && npm run deploy:pages",
-    "start": "echo The app is starting! It will automatically open in your browser when ready && env-cmd -f ./neardev/dev-account.env parcel src/index.html --open",
+    "start": "echo The app is starting! It will automatically open in your browser when ready && env-cmd -f ../neardev/dev-account.env parcel index.html --open",
     "dev": "nodemon --watch contract/src -e rs --exec \"npm run start\"",
     "test": "npm run build:contract:debug && cd contract && cargo test -- --nocapture && cd .. && jest test --runInBand"
   },
@@ -29,6 +29,8 @@
     "shelljs": "~0.8.4"
   },
   "dependencies": {
+    "@zendeskgarden/react-buttons": "^8.54.0",
+    "@zendeskgarden/react-grid": "^8.54.0",
     "@zendeskgarden/react-theming": "^8.54.0",
     "near-api-js": "~0.43.1",
     "near-cli": "^3.4.0",

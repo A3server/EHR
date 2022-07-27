@@ -1,4 +1,5 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME ||'EHR'
+const CONTRACT_NAME = 'ehr.polpy.testnet'
+console.log(CONTRACT_NAME)
 
 function getConfig(env) {
   switch (env) {
