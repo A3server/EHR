@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/mnt/c/Users/Utilizador/OneDrive - Universidade de Coimbra/Documentos/EHR/contract/target/wasm32-unknown-unknown/release/build/typenum-9058f0ecf7e97805/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/mnt/c/Users/Utilizador/OneDrive - Universidade de Coimbra/Documentos/EHR/contract/target/wasm32-unknown-unknown/release/build/typenum-9058f0ecf7e97805/out/op.rs
